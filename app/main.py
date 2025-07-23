@@ -16,4 +16,3 @@ def cache(func: Callable) -> Callable:
             result = cache_dict[key]
         return result
     return inner
-
